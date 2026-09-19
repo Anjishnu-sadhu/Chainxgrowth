@@ -28,7 +28,7 @@ const CryptoTicker = () => {
           const coinData = data[coin.id] || { usd: 0, usd_24h_change: 0 };
           return {
             ...coin,
-            price: `$${coinData.usd.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
+            price: `₹${coinData.usd.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
             change: `${coinData.usd_24h_change >= 0 ? '+' : ''}${coinData.usd_24h_change.toFixed(2)}%`,
             isPositive: coinData.usd_24h_change >= 0
           };

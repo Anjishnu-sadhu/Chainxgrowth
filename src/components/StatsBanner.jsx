@@ -67,7 +67,7 @@ const StatsBanner = () => {
         <div className="flex items-center gap-3 w-full md:w-1/4 justify-center md:justify-center">
           <TrendingUp className="w-8 h-8 text-[#c79c27]" strokeWidth={1.5} />
           <div className="flex flex-col">
-            <AnimatedCounter value={12} prefix="$" suffix="B+" />
+            <AnimatedCounter value={12} prefix="₹" suffix="B+" />
             <span className="text-[10px] font-medium text-gray-500 leading-none">24h Trading Volume</span>
           </div>
         </div>

@@ -120,7 +120,7 @@ const MarketOverview = () => {
                 </div>
                 
                 <div className="w-1/4 text-right font-bold text-[14px] text-gray-900">
-                  ${coin.price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 6 })}
+                  ₹{coin.price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 6 })}
                 </div>
                 
                 <div className="w-1/3 flex items-center justify-end gap-3">
